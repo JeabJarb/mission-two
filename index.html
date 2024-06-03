@@ -9,5 +9,57 @@
 </head>
 <body>
     
+        <div >
+            <h1>KLICKWI</h1>
+            <div class="card-background">
+                <div class="left-container">
+                    <p class="points">🥝<br>
+                    <span id="points">0</span></p>
+                    <img class="kiwi" onclick="clickKiwi(event)" src="./assests/kiwi1.png" alt="kiwi">
+                </div>
+    
+                <div class="right-container">
+                        <button class="btn btn-text" onclick="add1Click(event)">
+                            <div class="container">
+                                <p class="leftInner">🥝50</p>CLICK +1
+                                <span id="add1ClickCount" class="rightInner">0</span>
+                            </div>
+                            <p class="details">+1 per click</p>
+                        </button>
+    
+                        <button class="btn btn-text" onclick="add1Auto(event)">
+                            <div class="container">
+                                <p class="leftInner">🥝100</p>AUTO
+                                <span id="add1AutoCount" class="rightInner">0</span>
+                            </div>
+                            <p class="details">+1 kiwi per second</p>
+                        </button>
+    
+                        <button class="btn btn-text" onclick="add5Click(event)">
+                            <div class="container">
+                                <p class="leftInner">🥝500</p>Click 🔥
+                                <span id="add5ClickCount" class="rightInner">0</span>
+                            </div>
+                            <p class="details">+5 per click</p>
+                        </button>
+                        
+                        <button class="btn btn-text" onclick="add5Auto(event)">
+                            <div class="container">
+                                <p class="leftInner">🥝1000</p>CODING
+                                <span id="add5AutoCount" class="rightInner">0</span>
+                            </div>
+                            <p class="details">+5 kiwi per second</p>
+                        </button>
+                        
+                        <button class="btn btn-text" onclick="add100Auto(event)">
+                            <div class="container">
+                                <p class="leftInner">🥝10000</p>A.I
+                                <span id="add100AutoCount" class="rightInner">0</span>
+                            </div>
+                            <p class="details">+100 kiwi per second</p>
+                        </button>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
