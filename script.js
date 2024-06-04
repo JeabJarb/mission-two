@@ -1,6 +1,4 @@
 console.log("Connected!!! 🥝🥝🥝")
-// ========== Animation Zone ========== //
-
 // naming variable from HTML
 // just clicking and img
 const kiwiEl = document.getElementById("kiwiImg")
@@ -19,6 +17,33 @@ const add5AutoDisplayEl = document.getElementById("add5AutoCount")
 const add100AutoDisplayEl = document.getElementById("add100AutoCount")
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// ========== Themes Zone ========== //
+const kiwiBrown = "./assests/kiwi1.png";
+const kiwiGreen = "./assests/kiwi2.png";
+const kiwiPink = "./assests/kiwi3.png";
+const kiwiBlack = "./assests/kiwi4.png";
+const kiwiRed = "./assests/kiwi5.png";
+
+
+function changeBrown() {
+    kiwiEl.src = kiwiBrown
+}
+function changeGreen() {
+    kiwiEl.src = kiwiGreen
+}
+function changePink() {
+    kiwiEl.src = kiwiPink
+}
+function changeBlack() {
+    kiwiEl.src = kiwiBlack
+}
+function changeRed() {
+    kiwiEl.src = kiwiRed
+}
+
+
+
 
 
 // ========== Function areas ========== //

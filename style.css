@@ -82,6 +82,40 @@ span {
     border: rgb(84, 66, 47) solid 5px;
     box-shadow: 10px 10px 60px inset rgb(84, 66, 47);
 }
+
+.themes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.brown, .green, .pink, .black, .red {
+    height: 40px;
+    width: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(84, 66, 47);
+}
+
+.brown {
+    background-color: rgb(91, 63, 34);
+}
+.green {
+    background-color: rgb(0, 129, 24);
+}
+.pink {
+    background-color: rgb(255, 135, 249);
+}
+.black {
+    background-color: rgb(0, 0, 0);
+}
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+
 /* ---------------------------------------------------------------------- */
 
 /* container styling */
