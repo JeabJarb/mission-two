@@ -91,7 +91,7 @@ span {
     margin-top: 10px;
 }
 
-.brown, .green, .pink, .black, .red {
+.brown, .green, .pink, .black, .red, .capybara, .chinchilla, .croissant {
     height: 40px;
     width: 20px;
     border-radius: 10px;
@@ -114,6 +114,7 @@ span {
 .red {
     background-color: rgb(255, 0, 0);
 }
+
 
 
 /* ---------------------------------------------------------------------- */

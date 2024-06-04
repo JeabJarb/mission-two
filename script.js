@@ -24,6 +24,9 @@ const kiwiGreen = "./assests/kiwi2.png";
 const kiwiPink = "./assests/kiwi3.png";
 const kiwiBlack = "./assests/kiwi4.png";
 const kiwiRed = "./assests/kiwi5.png";
+const capybara = "./assests/capybara.png"
+const chinchilla = "./assests/chinchilla.png"
+const croissant = "./assests/croissant.png"
 
 
 function changeBrown() {
@@ -40,6 +43,16 @@ function changeBlack() {
 }
 function changeRed() {
     kiwiEl.src = kiwiRed
+}
+function changeCapybara() {
+    kiwiEl.src = capybara
+}
+function changeChinchilla() {
+    kiwiEl.src = chinchilla
+}
+function changeCroissant() {
+    kiwiEl.src = croissant;
+    
 }
 
 
