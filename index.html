@@ -14,46 +14,55 @@
             <div class="card-background">
                 <div class="left-container">
                     <p class="points">🥝<br>
-                    <span id="points">0</span></p>
-                    <img id="kiwiImg" class="kiwi" onclick="addClick(event)" src="./assests/kiwi1.png" alt="kiwi">
+                    <span id="pointsDisplay">0</span></p>
+                    <img id="kiwiImg" class="kiwi" onclick="whenClick()" src="./assests/kiwi1.png" alt="kiwi">
                 </div>
     
                 <div class="right-container">
-                        <button class="btn btn-text" onclick="add1Click(event)">
+
+                    <!-- ---------- Add +1 Per Click ---------- -->
+                        <button id="add1ClickButton" class="btn btn-text" onclick="add1Click()">
                             <div class="container">
                                 <p class="leftInner">🥝50</p>CLICK +1
                                 <span id="add1ClickCount" class="rightInner">0</span>
                             </div>
                             <p class="details">+1 per click</p>
                         </button>
-    
-                        <button class="btn btn-text" onclick="add1Auto(event)">
+                    
+                    <!-- ---------- Add +1 Per Second ---------- -->
+                        <button id="add1AutoButton" class="btn btn-text" onclick="add1Auto()">
                             <div class="container">
                                 <p class="leftInner">🥝100</p>AUTO
                                 <span id="add1AutoCount" class="rightInner">0</span>
                             </div>
                             <p class="details">+1 kiwi per second</p>
                         </button>
-    
-                        <button class="btn btn-text" onclick="add5Click(event)">
+
+                    <!-- ---------- Add +5 Per Click ---------- -->
+                        <button id="add5ClickButton" class="btn btn-text" onclick="add5Click()">
                             <div class="container">
-                                <p class="leftInner">🥝500</p>Click 🔥
-                                <span id="add5ClickCount" class="rightInner">0</span>
+                              <p class="leftInner">🥝500</p>
+                              Click 🔥
+                              <span id="add5ClickCount" class="rightInner">0</span>
                             </div>
                             <p class="details">+5 per click</p>
-                        </button>
-                        
-                        <button class="btn btn-text" onclick="add5Auto(event)">
+                          </button>
+
+                    <!-- ---------- Add +5 Per Second ---------- -->
+                        <button id="add5AutoButton" class="btn btn-text" onclick="add5Auto()">
                             <div class="container">
-                                <p class="leftInner">🥝1000</p>CODING
+                                <p class="leftInner">🥝1000</p>
+                                CODING
                                 <span id="add5AutoCount" class="rightInner">0</span>
                             </div>
                             <p class="details">+5 kiwi per second</p>
                         </button>
-                        
-                        <button class="btn btn-text" onclick="add100Auto(event)">
+                    
+                    <!-- ---------- Add +100 Per Second ---------- -->
+                        <button id="add100AutoButton" class="btn btn-text" onclick="add100Auto()">
                             <div class="container">
-                                <p class="leftInner">🥝10000</p>A.I
+                                <p class="leftInner">🥝10000</p>
+                                A.I
                                 <span id="add100AutoCount" class="rightInner">0</span>
                             </div>
                             <p class="details">+100 kiwi per second</p>

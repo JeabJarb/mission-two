@@ -78,6 +78,9 @@ span {
     height: 200px;
     border-radius: 100px;
     cursor: pointer;
+    margin-top: 10px;
+    border: rgb(84, 66, 47) solid 5px;
+    box-shadow: 10px 10px 60px inset rgb(84, 66, 47);
 }
 /* ---------------------------------------------------------------------- */
 
