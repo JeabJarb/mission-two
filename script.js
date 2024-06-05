@@ -50,9 +50,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
   window.toggleVolume = function () {
     if (backgroundSound.muted) {
       backgroundSound.muted = false;
+      coinsSound.muted = false;
+      cancelSound.muted = false;
+      popSound.muted = false;
+      clickSound.muted = false;
       volumeIcon.src = "./assests/vOn.png";
     } else {
       backgroundSound.muted = true;
+      coinsSound.muted = true;
+      cancelSound.muted = true;
+      popSound.muted = true;
+      clickSound.muted = true;
       volumeIcon.src = "./assests/vOff.png";
     }
   };
